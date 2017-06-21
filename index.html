@@ -13,12 +13,12 @@
 <body>
 <!--navbar-->
 <nav>
-	<ul class="nav nav-pills">
+	<ul class="nav nav-pills navbar-right">
 	  <li role="presentation"><a href="#">Vendedores</a></li>
 	  <li role="presentation"><a href="#">Compradores</a></li>
 	  <li role="presentation"><a href="#">Regístrate</a></li>
 	  <li role="presentation"><a href="#">Iniciar sesión</a></li>
-	  <li role="presentation" class="contacto"><a href="#" class="contacto">Contacto</a></li>
+	  <li role="presentation" class="contacto"><a href="#" class="contacto" data-toggle="modal" data-target="#myModal">Contacto</a></li>
 	</ul>
 </nav>
 <!--navbar-->
@@ -78,6 +78,35 @@
 	</div>
 </div>
 <!--sección cómo funciona-->
+<!--modal contacto-->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Contacto</h4>
+      </div>
+      <div class="modal-body">
+        
+	<form>
+		<div class="form-group">
+	    	<label for="exampleInputEmail1">Email</label>
+	    	<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+	  	</div>
+	  	<div class="form-group">
+	    	<label for="name">Nombre</label>
+	    	<input type="text" class="form-control" id="name" placeholder="Nombre">
+	  	</div>
+	</form>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Enviar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--modal contacto-->
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
