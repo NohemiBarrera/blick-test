@@ -11,14 +11,16 @@ div>h1, h3{
 	top: 100px;
 	font-family: 'HelveticaNeue';
 }
-h3#funciona{
+h4#funciona{
 	color: black;
 	font-family: 'HelveticaNeueBold';
+	padding: 40px;
+	text-align: center;
 }
 h1{
 	font-size: 4em;
 }
-h3{
+h3, h4{
 	font-size: 2.5em;
 }
 nav{
@@ -29,7 +31,7 @@ nav{
 a{
 	color: #444444;
 }
-.contacto{
+.contacto, .registro{
 	background-color: #e66700;
 	color: white;
 	border-radius: 50px;
@@ -38,4 +40,33 @@ a{
 	background-color: #e66700;
 	color: white;
     border-radius: 28px;
+}
+img#cierralo, img#manos{
+	width: 200px;
+	height: auto;
+}
+div#conoce.col-md-3, div#determina.col-md-3{
+    margin-left: 80px;
+    font-size: 2em;
+}
+p.naranja, p.gris{
+	font-family: 'HelveticaNeueMedium.ttf';
+	font-size: 1.2em;
+	margin: 10px;
+}
+p.naranja{
+	color: #e66700;
+}
+p.gris{
+	color: #aaaaaa;
+}
+div#registro{
+	text-align: center;
+	margin: 80px;
+}
+button{
+	border: none;
+	padding: 10px;
+	width: 100px;
+	margin: 20px;
 }
