@@ -1,0 +1,41 @@
+div#edificios{
+	background-image: url(../img/builds.jpg);
+	background-position: bottom;
+	background-size: cover;
+	height: 450px;
+}
+div>h1, h3{
+	color: white;
+	position: relative;
+	text-align: center;
+	top: 100px;
+	font-family: 'HelveticaNeue';
+}
+h3#funciona{
+	color: black;
+	font-family: 'HelveticaNeueBold';
+}
+h1{
+	font-size: 4em;
+}
+h3{
+	font-size: 2.5em;
+}
+nav{
+	font-family: 'HelveticaNeue';
+	height: 60px;
+	padding: 10px;
+}
+a{
+	color: #444444;
+}
+.contacto{
+	background-color: #e66700;
+	color: white;
+	border-radius: 50px;
+}
+.nav-pills>li>a.contacto{
+	background-color: #e66700;
+	color: white;
+    border-radius: 28px;
+}
